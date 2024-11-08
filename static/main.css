@@ -12,6 +12,11 @@ body {
     background-color: #5f788a;
   }
   
+  .navbar-brand{
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
   .site-header .navbar-nav .nav-link {
     color: #cbd5db;
   }
@@ -77,4 +82,14 @@ body {
   
   .account-heading {
     font-size: 2.5rem;
+  }
+
+  .collapse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .row{
+    margin-top: 100px;
   }
